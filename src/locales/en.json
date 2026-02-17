@@ -1,0 +1,204 @@
+{
+    "nav": {
+        "about": "About",
+        "materials": "Materials",
+        "gallery": "Gallery",
+        "custom": "Custom Orders",
+        "shipping": "Shipping",
+        "contact": "Contact"
+    },
+    "lang": {
+        "en": "EN",
+        "jp": "JP"
+    },
+    "hero": {
+        "tagline": "handmade. heartmade.",
+        "cta": "Request a Custom Piece"
+    },
+    "pillars": {
+        "label": "Craft Principles",
+        "one_title": "Full-Grain Leather",
+        "one_desc": "We use only the highest grade of leather — the full outer surface of the hide, untouched and unaltered. Every mark tells a story.",
+        "two_title": "Hand Saddle-Stitched",
+        "two_desc": "Each stitch is placed by hand using two needles and waxed linen thread. Stronger and more durable than any machine stitch.",
+        "three_title": "Made to Order",
+        "three_desc": "Every piece is crafted individually in our workshop in Japan. No mass production. No stock. Made for you."
+    },
+    "featured": {
+        "label": "Selected Works",
+        "title": "Recent Pieces",
+        "view_all": "View Gallery"
+    },
+    "about_preview": {
+        "label": "The Maker",
+        "text": "Yusei is a small leather studio based in Japan, focused on creating objects that improve with time. Each piece is handcrafted from full-grain vegetable-tanned leather, saddle-stitched by hand, and made to order.",
+        "link": "Read Our Story"
+    },
+    "about": {
+        "label": "About Yusei",
+        "title": "Built to Age",
+        "story_title": "Origin",
+        "story_p1": "Yusei began in a small workshop with a single belief: the things we carry should outlast us. Founded on the principles of Japanese craftsmanship, every piece is made with patience, precision, and respect for material.",
+        "story_p2": "The name Yusei (勇誠) reflects our philosophy — courage and sincerity in every stitch. We don't rush. We don't cut corners. We let the leather speak.",
+        "philosophy_title": "Philosophy",
+        "philosophy_p1": "We believe in slow making. In an age of disposable goods, we choose to create objects that develop character over years of use.",
+        "philosophy_p2": "Full-grain leather is a living material. It remembers every touch, every journey, every moment. Our role is simply to shape it well and let time do the rest.",
+        "quote": "\"The best leather goods are not the ones that look new forever — they are the ones that look better with every passing year.\"",
+        "workshop_title": "The Workshop"
+    },
+    "materials": {
+        "label": "Materials & Craft",
+        "title": "Understanding the Craft",
+        "intro": "Premium pricing reflects premium materials and irreplaceable technique. Here is why every detail matters.",
+        "leather_title": "Full-Grain Leather",
+        "leather_p1": "Full-grain is the strongest, most durable grade of leather. It uses the entire outer surface of the hide — including all natural grain patterns, scars, and markings that make each piece unique.",
+        "leather_p2": "Unlike corrected-grain or bonded leather, full-grain develops a rich patina over time, becoming more beautiful with age rather than deteriorating.",
+        "tanning_title": "Vegetable Tanning",
+        "tanning_p1": "Our leather is vegetable-tanned using natural tree bark extracts — a process that takes weeks rather than the hours required by chrome tanning. The result is a firmer, more characterful leather that ages gracefully.",
+        "tanning_p2": "Vegetable-tanned leather is environmentally gentler and produces earth-tone colors that deepen naturally over time.",
+        "patina_title": "Patina & Aging",
+        "patina_p1": "Patina is the gradual darkening and softening of leather through handling, sunlight, and natural oils. It is the signature of genuine, well-used leather.",
+        "patina_p2": "Each piece begins lighter and develops its own unique character. No two pieces age the same way — your leather becomes truly yours.",
+        "stitch_title": "Hand Saddle-Stitching",
+        "stitch_p1": "Unlike machine stitching which uses a single thread in a chain pattern, saddle-stitching uses two needles passing through the same hole in opposite directions.",
+        "stitch_p2": "If one stitch breaks, the surrounding stitches hold fast. Machine stitching unravels. This is slower — but it lasts a lifetime.",
+        "edge_title": "Edge Finishing",
+        "edge_p1": "Every edge is burnished by hand using multiple rounds of sanding, application of gum tragacanth, and heat burnishing. The result is a smooth, sealed edge that resists moisture and wear.",
+        "hardware_title": "Hardware",
+        "hardware_p1": "We use solid brass hardware — buckles, rivets, and clasps that develop their own patina alongside the leather. No plated metals. No plastic components.",
+        "care_title": "Leather Care",
+        "care_p1": "Full-grain leather requires minimal care. Keep it dry, avoid prolonged direct sunlight, and condition occasionally with a quality leather balm. Allow dust and dirt to be wiped away with a soft cloth.",
+        "care_p2": "Do not use chemical cleaners or waterproofing sprays. The leather will naturally develop water resistance over time."
+    },
+    "gallery": {
+        "label": "Portfolio",
+        "title": "Selected Works",
+        "filter_all": "All",
+        "filter_bags": "Bags",
+        "filter_wallets": "Wallets",
+        "filter_jackets": "Jackets",
+        "filter_custom": "Custom Work",
+        "request_similar": "Request Similar Piece",
+        "specs": "Specifications",
+        "timeline_label": "Production Timeline",
+        "material_label": "Material",
+        "back": "Back to Gallery"
+    },
+    "custom": {
+        "label": "Custom Orders",
+        "title": "Made for You",
+        "intro": "Every custom piece begins with a conversation. Tell us what you need, and we will bring it to life.",
+        "process_label": "The Process",
+        "step1_title": "Inquiry",
+        "step1_desc": "Share your vision through our form below. Include reference images if possible.",
+        "step2_title": "Quote",
+        "step2_desc": "We review your request and provide a detailed quote within 3–5 business days.",
+        "step3_title": "Deposit",
+        "step3_desc": "A 50% deposit secures your place in our production schedule.",
+        "step4_title": "Production",
+        "step4_desc": "Your piece is handcrafted in our workshop. We share progress photos along the way.",
+        "step5_title": "Delivery",
+        "step5_desc": "Final payment, quality inspection, and worldwide shipping with tracking.",
+        "timeline_title": "Timeline",
+        "timeline_text": "Most custom pieces take 14–30 days to complete, depending on complexity. Larger projects may require additional time.",
+        "deposit_title": "Deposit Policy",
+        "deposit_text": "A 50% non-refundable deposit is required to begin production. The remaining balance is due before shipping.",
+        "cancel_title": "Cancellation",
+        "cancel_text": "Orders may be cancelled within 48 hours of deposit for a full refund. After production begins, deposits are non-refundable.",
+        "form_title": "Start Your Order",
+        "form_name": "Full Name",
+        "form_email": "Email Address",
+        "form_country": "Country",
+        "form_language": "Preferred Language",
+        "form_product": "Product Type",
+        "form_dimensions": "Dimensions / Size",
+        "form_leather": "Leather Preference",
+        "form_color": "Color",
+        "form_hardware": "Hardware Preference",
+        "form_budget": "Budget Range",
+        "form_notes": "Additional Notes",
+        "form_submit": "Submit Inquiry",
+        "form_success": "Thank you. We have received your inquiry and will respond within 3–5 business days.",
+        "form_required": "This field is required",
+        "form_invalid_email": "Please enter a valid email address",
+        "product_types": {
+            "bag": "Bag",
+            "wallet": "Wallet",
+            "belt": "Belt",
+            "jacket": "Jacket",
+            "accessory": "Accessory",
+            "other": "Other"
+        },
+        "budget_ranges": {
+            "under300": "Under $300",
+            "300to500": "$300 – $500",
+            "500to1000": "$500 – $1,000",
+            "1000to2000": "$1,000 – $2,000",
+            "over2000": "Over $2,000"
+        }
+    },
+    "shipping": {
+        "label": "Shipping & FAQ",
+        "title": "Shipping & Policies",
+        "production_title": "Production Time",
+        "production_text": "Standard production takes 14–30 days depending on the piece. We will provide an estimated completion date at the time of your quote.",
+        "shipping_title": "International Shipping",
+        "shipping_text": "We ship worldwide via tracked express courier. Delivery typically takes 3–7 business days after dispatch. Shipping costs are calculated based on destination and package weight.",
+        "customs_title": "Customs & Import Duties",
+        "customs_text": "International orders may be subject to customs duties and import taxes. These charges are the responsibility of the buyer and vary by country.",
+        "tracking_title": "Tracking",
+        "tracking_text": "A tracking number is provided once your order ships. We will send updates at each stage of the delivery process.",
+        "delays_title": "Delays",
+        "delays_text": "If a delay occurs during production or shipping, we will notify you promptly and provide a revised timeline. We do not compromise quality for speed.",
+        "returns_title": "Returns & Refunds",
+        "returns_text": "Due to the custom nature of our work, we do not accept returns on made-to-order pieces. If you receive a defective item, please contact us within 7 days of delivery.",
+        "faq_title": "Frequently Asked Questions",
+        "faq": [
+            {
+                "q": "How long does a custom order take?",
+                "a": "Most custom pieces are completed within 14–30 days. Complex or large-scale projects may take longer. We provide an estimated timeline with your quote."
+            },
+            {
+                "q": "Do you ship internationally?",
+                "a": "Yes. We ship worldwide via tracked express courier. Shipping costs depend on destination and package weight."
+            },
+            {
+                "q": "What leather do you use?",
+                "a": "We exclusively use full-grain, vegetable-tanned leather sourced from reputable tanneries. Each hide is selected for quality and character."
+            },
+            {
+                "q": "Can I choose the leather color?",
+                "a": "Yes. We offer a range of natural vegetable-tanned colors. Custom dyeing is available upon request."
+            },
+            {
+                "q": "Do you offer repairs?",
+                "a": "We stand behind our work. Minor repairs on Yusei pieces are offered at no charge. Major repairs are assessed on a case-by-case basis."
+            },
+            {
+                "q": "What payment methods do you accept?",
+                "a": "We accept bank transfer and PayPal. Payment details are provided with your quote."
+            }
+        ]
+    },
+    "contact": {
+        "label": "Contact",
+        "title": "Get in Touch",
+        "intro": "Questions, collaborations, or just a conversation about leather — we would love to hear from you.",
+        "form_name": "Name",
+        "form_email": "Email",
+        "form_subject": "Subject",
+        "form_message": "Message",
+        "form_submit": "Send Message",
+        "form_success": "Message sent. We will respond within 2–3 business days.",
+        "email_label": "Email",
+        "email": "hello@yusei.jp",
+        "social_label": "Social",
+        "location_label": "Workshop",
+        "location": "Kyoto, Japan"
+    },
+    "footer": {
+        "tagline": "handmade. heartmade.",
+        "made_in": "Made in Japan",
+        "copyright": "© 2026 Yusei. All rights reserved."
+    }
+}

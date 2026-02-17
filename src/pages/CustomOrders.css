@@ -1,0 +1,123 @@
+/* ═══════════════════════════════════════
+   CUSTOM ORDERS PAGE
+   ═══════════════════════════════════════ */
+
+.custom-process {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: var(--space-lg);
+}
+
+.custom-step {
+    text-align: center;
+    padding: var(--space-lg) var(--space-sm);
+    position: relative;
+}
+
+.custom-step:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 28px;
+    right: -10%;
+    width: 20%;
+    height: 1px;
+    background: var(--color-border-dark);
+}
+
+.custom-step__num {
+    font-family: var(--font-serif);
+    font-size: var(--fs-h3);
+    font-weight: 300;
+    color: var(--color-charcoal-muted);
+    display: block;
+    margin-bottom: var(--space-xs);
+}
+
+.custom-step__title {
+    font-size: var(--fs-body);
+    font-weight: 400;
+    margin-bottom: var(--space-xs);
+}
+
+.custom-step__desc {
+    font-size: var(--fs-xs);
+    color: var(--color-charcoal-muted);
+    line-height: 1.6;
+}
+
+/* Policies */
+.custom-policies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-xl);
+}
+
+.custom-policy h3 {
+    font-size: var(--fs-body);
+    font-weight: 400;
+    margin-bottom: var(--space-xs);
+}
+
+.custom-policy p {
+    font-size: var(--fs-small);
+    color: var(--color-charcoal-muted);
+    line-height: var(--lh-body);
+}
+
+/* Form */
+.custom-form__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+}
+
+.custom-form__submit {
+    width: 100%;
+    justify-content: center;
+    margin-top: var(--space-lg);
+}
+
+/* Success */
+.custom-success {
+    text-align: center;
+    padding: var(--space-3xl) 0;
+}
+
+.custom-success svg {
+    color: var(--color-olive);
+    margin-bottom: var(--space-lg);
+}
+
+.custom-success p {
+    font-size: var(--fs-body);
+    color: var(--color-charcoal-muted);
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: var(--lh-body);
+}
+
+@media (max-width: 768px) {
+    .custom-process {
+        grid-template-columns: 1fr;
+        gap: var(--space-sm);
+    }
+
+    .custom-step {
+        text-align: left;
+        padding: var(--space-sm) 0;
+    }
+
+    .custom-step::after {
+        display: none;
+    }
+
+    .custom-policies {
+        grid-template-columns: 1fr;
+        gap: var(--space-lg);
+    }
+
+    .custom-form__row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}

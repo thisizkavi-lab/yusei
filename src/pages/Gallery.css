@@ -1,0 +1,105 @@
+/* ═══════════════════════════════════════
+   GALLERY PAGE
+   ═══════════════════════════════════════ */
+
+.gallery-filters {
+    display: flex;
+    gap: var(--space-md);
+    margin-bottom: var(--space-xl);
+    flex-wrap: wrap;
+}
+
+.gallery-filter {
+    font-family: var(--font-sans);
+    font-size: var(--fs-xs);
+    font-weight: 400;
+    letter-spacing: var(--ls-wider);
+    text-transform: uppercase;
+    color: var(--color-charcoal-muted);
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    transition: all var(--duration-fast) var(--ease-out);
+}
+
+.gallery-filter:hover {
+    color: var(--color-charcoal);
+}
+
+.gallery-filter--active {
+    color: var(--color-charcoal);
+    border-color: var(--color-charcoal);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-lg);
+}
+
+.gallery-card {
+    display: block;
+}
+
+.gallery-card__img {
+    aspect-ratio: 3 / 4;
+    overflow: hidden;
+    border-radius: 2px;
+    margin-bottom: var(--space-sm);
+}
+
+.gallery-card__placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.65;
+    transition: opacity var(--duration-normal) var(--ease-out),
+        transform var(--duration-slow) var(--ease-out);
+}
+
+.gallery-card:hover .gallery-card__placeholder {
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+
+.gallery-card__icon {
+    color: rgba(255, 255, 255, 0.15);
+}
+
+.gallery-card__info {
+    padding: var(--space-xs) 0;
+}
+
+.gallery-card__name {
+    font-size: var(--fs-body);
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.gallery-card__meta {
+    font-size: var(--fs-xs);
+    color: var(--color-charcoal-muted);
+    letter-spacing: var(--ls-wide);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.gallery-card__dot {
+    opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-md);
+    }
+}
+
+@media (max-width: 500px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+}

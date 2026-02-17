@@ -1,0 +1,128 @@
+/* ═══════════════════════════════════════
+   SHARED PAGE HEADER
+   ═══════════════════════════════════════ */
+
+.page-header {
+    padding: var(--space-3xl) 0 var(--space-xl);
+}
+
+.page-header__title {
+    font-size: var(--fs-h1);
+    font-weight: 300;
+    letter-spacing: 0.02em;
+}
+
+/* ═══════════════════════════════════════
+   ABOUT PAGE
+   ═══════════════════════════════════════ */
+
+/* Story */
+.about-story {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: var(--space-3xl);
+    align-items: start;
+}
+
+.about-story__portrait {
+    aspect-ratio: 3 / 4;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.about-story__portrait-placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(160deg, #4a3d2e 0%, #2a2118 60%, #1a1612 100%);
+}
+
+.about-story__content {
+    padding-top: var(--space-lg);
+}
+
+.about-story__title {
+    font-size: var(--fs-h2);
+    font-weight: 300;
+}
+
+.about-story__content p {
+    color: var(--color-charcoal-muted);
+    line-height: var(--lh-body);
+}
+
+/* Philosophy */
+.about-philosophy {
+    text-align: center;
+}
+
+.about-philosophy .divider {
+    margin: var(--space-lg) auto;
+}
+
+.about-philosophy__title {
+    font-size: var(--fs-h2);
+    font-weight: 300;
+}
+
+.about-philosophy p {
+    color: var(--color-charcoal-muted);
+    line-height: var(--lh-body);
+}
+
+/* Quote */
+.about-quote {
+    font-family: var(--font-serif);
+    font-size: var(--fs-h2);
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    color: var(--color-charcoal);
+    line-height: var(--lh-heading);
+    padding: var(--space-xl) 0;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+/* Workshop Grid */
+.workshop-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+}
+
+.workshop-grid__item {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.workshop-grid__item--large {
+    aspect-ratio: 3 / 4;
+    grid-row: span 2;
+}
+
+.workshop-grid__placeholder {
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-story {
+        grid-template-columns: 1fr;
+        gap: var(--space-xl);
+    }
+
+    .about-story__portrait {
+        max-height: 400px;
+    }
+
+    .workshop-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .workshop-grid__item--large {
+        grid-row: span 1;
+    }
+}

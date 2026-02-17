@@ -1,0 +1,61 @@
+/* ═══════════════════════════════════════
+   CONTACT PAGE
+   ═══════════════════════════════════════ */
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--space-3xl);
+    align-items: start;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+    padding-top: var(--space-md);
+}
+
+.contact-info__block {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.contact-info__label {
+    font-family: var(--font-sans);
+    font-size: var(--fs-xs);
+    font-weight: 500;
+    letter-spacing: var(--ls-widest);
+    text-transform: uppercase;
+    color: var(--color-charcoal-muted);
+}
+
+.contact-info__value {
+    font-size: var(--fs-body);
+    color: var(--color-charcoal);
+}
+
+.contact-social {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact-social a {
+    font-size: var(--fs-body);
+    color: var(--color-charcoal);
+}
+
+.contact-form__submit {
+    width: 100%;
+    justify-content: center;
+    margin-top: var(--space-md);
+}
+
+@media (max-width: 768px) {
+    .contact-layout {
+        grid-template-columns: 1fr;
+        gap: var(--space-xl);
+    }
+}

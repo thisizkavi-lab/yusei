@@ -1,0 +1,199 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    transition: background-color var(--duration-normal) var(--ease-out),
+        box-shadow var(--duration-normal) var(--ease-out);
+}
+
+.header--scrolled {
+    background-color: rgba(250, 248, 245, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 1px 0 var(--color-border);
+}
+
+.header__inner {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.header__logo {
+    z-index: 101;
+}
+
+.header__logo-text {
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    color: var(--color-charcoal);
+}
+
+/* Nav */
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xl);
+}
+
+.header__links {
+    display: flex;
+    gap: var(--space-lg);
+}
+
+.header__link {
+    font-family: var(--font-sans);
+    font-size: var(--fs-xs);
+    font-weight: 400;
+    letter-spacing: var(--ls-wider);
+    text-transform: uppercase;
+    color: var(--color-charcoal-muted);
+    position: relative;
+    padding: 4px 0;
+}
+
+.header__link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: var(--color-charcoal);
+    transition: width var(--duration-normal) var(--ease-out);
+}
+
+.header__link:hover,
+.header__link--active {
+    color: var(--color-charcoal);
+    opacity: 1;
+}
+
+.header__link:hover::after,
+.header__link--active::after {
+    width: 100%;
+}
+
+/* Actions */
+.header__actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.header__social {
+    display: flex;
+    gap: var(--space-sm);
+}
+
+.header__social a {
+    color: var(--color-charcoal-muted);
+    display: flex;
+    align-items: center;
+    transition: color var(--duration-fast) var(--ease-out);
+}
+
+.header__social a:hover {
+    color: var(--color-charcoal);
+    opacity: 1;
+}
+
+/* Language Toggle */
+.header__lang-toggle {
+    font-family: var(--font-sans);
+    font-size: var(--fs-xs);
+    letter-spacing: var(--ls-wider);
+    color: var(--color-charcoal-muted);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 0;
+}
+
+.header__lang-toggle span.active {
+    color: var(--color-charcoal);
+    font-weight: 500;
+}
+
+.header__lang-divider {
+    opacity: 0.3;
+}
+
+/* Burger */
+.header__burger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    width: 28px;
+    height: 28px;
+    z-index: 101;
+}
+
+.header__burger span {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: var(--color-charcoal);
+    transition: transform var(--duration-normal) var(--ease-out),
+        opacity var(--duration-fast) var(--ease-out);
+}
+
+.header__burger--open span:first-child {
+    transform: translateY(3.5px) rotate(45deg);
+}
+
+.header__burger--open span:last-child {
+    transform: translateY(-3.5px) rotate(-45deg);
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+    .header__burger {
+        display: flex;
+    }
+
+    .header__nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--color-warm-white);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: var(--space-xl);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity var(--duration-normal) var(--ease-out);
+    }
+
+    .header__nav--open {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .header__links {
+        flex-direction: column;
+        align-items: center;
+        gap: var(--space-lg);
+    }
+
+    .header__link {
+        font-size: var(--fs-small);
+        letter-spacing: var(--ls-widest);
+    }
+}
