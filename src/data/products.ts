@@ -22,7 +22,7 @@ export const products: Product[] = [
         material: 'Full-grain veg-tan',
         timeline: '21 days',
         color: '#8b6914',
-        images: ['/images/tote.png'],
+        images: ['images/tote.png'],
     },
     {
         id: 'briefcase-01',
@@ -34,7 +34,7 @@ export const products: Product[] = [
         material: 'Full-grain veg-tan',
         timeline: '28 days',
         color: '#6d5310',
-        images: ['/images/hero.png'],
+        images: ['images/hero.png'],
     },
     {
         id: 'wallet-01',
@@ -46,7 +46,7 @@ export const products: Product[] = [
         material: 'Full-grain Buttero',
         timeline: '14 days',
         color: '#a47d1a',
-        images: ['/images/wallet.png'],
+        images: ['images/wallet.png'],
     },
     {
         id: 'cardholder-01',
@@ -58,7 +58,7 @@ export const products: Product[] = [
         material: 'Full-grain Buttero',
         timeline: '10 days',
         color: '#5c4a2a',
-        images: ['/images/leather-texture.png'],
+        images: ['images/leather-texture.png'],
     },
     {
         id: 'jacket-01',
@@ -70,7 +70,7 @@ export const products: Product[] = [
         material: 'Full-grain cowhide',
         timeline: '45 days',
         color: '#2d2d2d',
-        images: ['/images/artisan.png'],
+        images: ['images/artisan.png'],
     },
     {
         id: 'custom-01',
@@ -82,7 +82,7 @@ export const products: Product[] = [
         material: 'Full-grain Pueblo',
         timeline: '30 days',
         color: '#7a5c36',
-        images: ['/images/workshop.png'],
+        images: ['images/workshop.png'],
     },
     {
         id: 'custom-02',
@@ -94,7 +94,7 @@ export const products: Product[] = [
         material: 'Full-grain veg-tan',
         timeline: '12 days',
         color: '#b8960c',
-        images: ['/images/leather-texture.png'],
+        images: ['images/leather-texture.png'],
     },
 ];
 

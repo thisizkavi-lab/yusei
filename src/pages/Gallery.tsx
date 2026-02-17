@@ -59,7 +59,7 @@ export default function Gallery() {
                                 <div className="gallery-card__img img-reveal">
                                     {product.images.length > 0 ? (
                                         <img
-                                            src={product.images[0]}
+                                            src={`${import.meta.env.BASE_URL}${product.images[0]}`}
                                             alt={currentLang === 'jp' ? product.nameJp : product.nameEn}
                                             loading="lazy"
                                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}

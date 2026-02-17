@@ -21,7 +21,7 @@ export default function Home() {
             {/* Hero */}
             <section className="hero">
                 <div className="hero__bg">
-                    <img src="/images/hero.png" alt="Artisan handcrafting leather" loading="eager" />
+                    <img src={`${import.meta.env.BASE_URL}images/hero.png`} alt="Artisan handcrafting leather" loading="eager" />
                     <div className="hero__overlay" />
                 </div>
                 <div className="hero__content">
@@ -82,9 +82,9 @@ export default function Home() {
                             >
                                 <div className="featured__img img-reveal">
                                     {product.id === 'tote-01' ? (
-                                        <img src="/images/tote.png" alt={currentLang === 'jp' ? product.nameJp : product.nameEn} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                        <img src={`${import.meta.env.BASE_URL}images/tote.png`} alt={currentLang === 'jp' ? product.nameJp : product.nameEn} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                                     ) : product.id === 'wallet-01' ? (
-                                        <img src="/images/wallet.png" alt={currentLang === 'jp' ? product.nameJp : product.nameEn} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                        <img src={`${import.meta.env.BASE_URL}images/wallet.png`} alt={currentLang === 'jp' ? product.nameJp : product.nameEn} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                                     ) : (
                                         <div
                                             className="featured__img-placeholder"
@@ -115,7 +115,7 @@ export default function Home() {
                 <div className="container">
                     <div className={`about-preview fade-in ${about.isVisible ? 'visible' : ''}`}>
                         <div className="about-preview__image">
-                            <img src="/images/artisan.png" alt="Yusei artisan" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            <img src={`${import.meta.env.BASE_URL}images/artisan.png`} alt="Yusei artisan" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </div>
                         <div className="about-preview__content">
                             <p className="section-label">{t('about_preview.label')}</p>

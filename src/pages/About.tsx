@@ -24,7 +24,7 @@ export default function About() {
                 <div className="container">
                     <div className={`about-story fade-in ${story.isVisible ? 'visible' : ''}`}>
                         <div className="about-story__portrait">
-                            <img src="/images/artisan.png" alt="Yusei artisan" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            <img src={`${import.meta.env.BASE_URL}images/artisan.png`} alt="Yusei artisan" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </div>
                         <div className="about-story__content">
                             <h2 className="about-story__title">{t('about.story_title')}</h2>
@@ -63,13 +63,13 @@ export default function About() {
                     <p className="section-label">{t('about.workshop_title')}</p>
                     <div className={`workshop-grid stagger-children ${workshop.isVisible ? 'visible' : ''}`}>
                         <div className="workshop-grid__item workshop-grid__item--large">
-                            <img src="/images/workshop.png" alt="Workshop" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            <img src={`${import.meta.env.BASE_URL}images/workshop.png`} alt="Workshop" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </div>
                         <div className="workshop-grid__item">
-                            <img src="/images/hero.png" alt="Crafting" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            <img src={`${import.meta.env.BASE_URL}images/hero.png`} alt="Crafting" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </div>
                         <div className="workshop-grid__item">
-                            <img src="/images/leather-texture.png" alt="Leather texture" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            <img src={`${import.meta.env.BASE_URL}images/leather-texture.png`} alt="Leather texture" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </div>
                     </div>
                 </div>
